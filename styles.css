@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playwrite IT Moderna', cursive;
+    background-color: #346898;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 400px;
+    height: 100px;
+}
+
+h1 {
+    color: #FFBE00;
+
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cheker {
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    width: 400px;
+    background-color: #6A005E;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 2px 3px 1px #FF8CF2;
+}
+
+#text-input {
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #FF03E2;
+    background-color: #6A005E;
+    padding: 6px;
+    font-size: 20px;
+    margin: 6px;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    margin: 6px;
+    border-radius: 12px;
+    background-color: #43FF00;
+}
+
+
+.note {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.note div {
+    margin: 10px;
+    padding: 4px;
+    font-size: 14px;
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #43FF00;
+}
+
+.spn {
+    color: #43FF00;
+    font-weight: bold;
+    font-size: 20px;
+}
